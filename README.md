@@ -11,6 +11,17 @@ This project implements **broadcast signal encoding and transmission using UDP**
 ## How to Run
 
 1. Open **two separate command prompt/terminal windows**.
-2. In the first window, run the receiver:
+2. In the first window,  run the sender:
    ```bash
-   python decode.py
+   python encode.py
+   ```
+
+3.In the second window, run the receiver:
+   ```bash
+   python encode.py
+   ```
+4. The sender transmits encoded signals via UDP, and the receiver prints the reconstructed list in real time.
+
+## Notes
+
+Ensure both sender and receiver use the same IP and port settings.
