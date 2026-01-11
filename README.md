@@ -22,6 +22,16 @@ This project implements **broadcast signal encoding and transmission using UDP**
    ```
 4. The sender transmits encoded signals via UDP, and the receiver prints the reconstructed list in real time.
 
+## GUI Version
+1. Install the required Libraries.
+``` bash
+pip install streamlit
+```
+2. Now Run the Streamlit on your Local Host
+``` bash
+python - m streamlit run app.py
+```
+
 ## Notes
 
 Ensure both sender and receiver use the same IP and port settings.
